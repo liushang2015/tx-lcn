@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b63d6e75-309f-449b-b6b6-606ec0cd37f0" name="Default Changelist" comment="初始导入11">
-      <change beforePath="$PROJECT_DIR$/tx-manager/src/main/java/com/codingapi/tm/TxManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tx-manager/src/main/java/com/codingapi/tm/TxManagerApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="b63d6e75-309f-449b-b6b6-606ec0cd37f0" name="Default Changelist" comment="初始导入11" />
     <ignored path="$PROJECT_DIR$/transaction-motan/target/" />
     <ignored path="$PROJECT_DIR$/tx-manager/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tx-manager/src/main/java/com/codingapi/tm/TxManagerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="266">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -154,12 +152,12 @@
       <updated>1554460416304</updated>
       <workItem from="1554460417950" duration="2117000" />
       <workItem from="1554470031792" duration="2575000" />
-      <workItem from="1554476109214" duration="26000" />
+      <workItem from="1554476109214" duration="435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4718000" />
+    <option name="totallyTimeSpent" value="5127000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -254,8 +252,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tx-manager/src/main/java/com/codingapi/tm/TxManagerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="266">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
