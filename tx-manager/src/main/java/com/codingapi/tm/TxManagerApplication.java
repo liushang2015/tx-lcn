@@ -12,6 +12,7 @@ public class TxManagerApplication {
 
 
     public static void main(String[] args) {
+        System.out.println();
         SpringApplication.run(TxManagerApplication.class, args);
     }
 
