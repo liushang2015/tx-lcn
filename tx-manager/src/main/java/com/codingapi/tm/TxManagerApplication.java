@@ -15,6 +15,7 @@ public class TxManagerApplication {
         System.out.println();
         SpringApplication.run(TxManagerApplication.class, args);
         System.out.println();
+        System.out.println();
     }
 
 }
