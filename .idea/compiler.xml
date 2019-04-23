@@ -6,6 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="meite-shop-basics-springcloud-eureka" />
+        <module name="meite-shop-basics-springcloud-zuul" />
+        <module name="meite-shop-common" />
+        <module name="meite-shop-service-api-member" />
+        <module name="meite-shop-service-api-order" />
+        <module name="meite-shop-service-api-stock" />
+        <module name="meite-shop-service-member" />
+        <module name="meite-shop-service-order" />
+        <module name="meite-shop-service-stock" />
         <module name="transaction-dubbo" />
         <module name="transaction-motan" />
         <module name="transaction-springcloud" />
@@ -14,10 +23,38 @@
         <module name="tx-plugins-db" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="txlcn-demo" target="1.8" />
+      <module name="txlcn-demo-common" target="1.8" />
+      <module name="txlcn-demo-dubbo-service-a" target="1.8" />
+      <module name="txlcn-demo-dubbo-service-b" target="1.8" />
+      <module name="txlcn-demo-dubbo-service-c" target="1.8" />
+      <module name="txlcn-demo-spring-service-a" target="1.8" />
+      <module name="txlcn-demo-spring-service-b" target="1.8" />
+      <module name="txlcn-demo-spring-service-c" target="1.8" />
+      <module name="txlcn-demo-tm" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="meite-shop-basics-springcloud-eureka" options="-parameters" />
+      <module name="meite-shop-basics-springcloud-zuul" options="-parameters" />
+      <module name="meite-shop-common" options="-parameters" />
+      <module name="meite-shop-service-api-member" options="-parameters" />
+      <module name="meite-shop-service-api-order" options="-parameters" />
+      <module name="meite-shop-service-api-stock" options="-parameters" />
+      <module name="meite-shop-service-member" options="-parameters" />
+      <module name="meite-shop-service-order" options="-parameters" />
+      <module name="meite-shop-service-stock" options="-parameters" />
       <module name="tx-manager" options="-parameters" />
+      <module name="txlcn-demo-common" options="-parameters" />
+      <module name="txlcn-demo-dubbo-service-a" options="-parameters" />
+      <module name="txlcn-demo-dubbo-service-b" options="-parameters" />
+      <module name="txlcn-demo-dubbo-service-c" options="-parameters" />
+      <module name="txlcn-demo-spring-service-a" options="-parameters" />
+      <module name="txlcn-demo-spring-service-b" options="-parameters" />
+      <module name="txlcn-demo-spring-service-c" options="-parameters" />
+      <module name="txlcn-demo-tm" options="-parameters" />
     </option>
   </component>
 </project>
